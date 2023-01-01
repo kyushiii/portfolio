@@ -1,9 +1,11 @@
 import React from 'react';
-import styles from "../MainPage/MainPage.modules.css";
+import styles from "../MainPage/MainPage.module.css";
+import NavBar from "../../components/NavBar/NavBar.jsx"
 
 function MainPage() {
-    return ( <div className={styles.MainPage}>
-        <h1>Hallo</h1>
+    return ( 
+    <div className={styles.MainPage}>
+       <NavBar/>
     </div> );
 }
 
