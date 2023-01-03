@@ -1,4 +1,4 @@
-import './App.modules.css';
+import './App.module.sass';
 import MainPage from './pages/MainPage/MainPage';
 
 function App() {
